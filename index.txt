@@ -2,7 +2,7 @@ what is the output of this regex:
 
 1. 
 "fooff".replace(/(f)/g,"$`");
- -> "fooff".replace(/(f)/g,"$`");
+ -> 'oofoofoof'
 
 2.
 "camelCaseLetter".split(/(?=[A-Z])/g)
